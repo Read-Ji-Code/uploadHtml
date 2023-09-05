@@ -8,9 +8,15 @@ article > div {
     width: 250px;
 }
 
-fieldset > label{
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset > label {
     display: inline-flex;
     justify-content: center;
-    
-    width:15%;
+    align-items: center;
+    width: 15%;
 }
